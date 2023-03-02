@@ -2,8 +2,10 @@ const chosenNum = Math.floor(Math.random() * 100)
 const gameStatus = document.getElementById("game-status")
 console.log(chosenNum)
 
-function buttonClick() {
+const previousNums = document.getElementById("previous-nums")
 
+function buttonClick() {
+  
   if (parseInt(num.value) === chosenNum) {
     console.log("You won!")
     gameStatus.textContent = "You Won"
@@ -17,6 +19,7 @@ function buttonClick() {
     gameStatus.textContent = `${num.value} is Too HIGH, Guess Again!`
 
   }
+  previousNums.textContent += `${num.value}  `
 }
 
 const num = document.getElementById("Number")
