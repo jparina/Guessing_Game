@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-  <head>
-    <meta charset="utf-8">
-    <title>TITLE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Your link to your CSS file -->
-    <link rel="stylesheet" href="">
-    <!-- Your Javascript file goes here -->
-    <script src="/app.js" defer></script>
-  </head>
-  <body>
-    <!-- your HTML should go here -->
-    <nav>
-      <h1>Let's Play the Guessing Number Game!</h1>
-    </nav>
-    <fieldset>
-      <label for="Number">
-        Pick a Number between 1 and 100
-        <input id="Number" type="text" required="">
-      </label>
-    </fieldset>
-    <button class="Submit" onclick="buttonClick()">Submit</button>
-    <script src="/app.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>TITLE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+</head>
+<body>
+
+<!-- Game Status Section -->
+<nav>
+  <h1 id="game-status">Let's Play the Guessing Number Game!</h1>
+</nav>
+
+<!--  Form Section -->
+<form>
+  <label for="Number">
+    Pick a Number between 1 and 100
+    <input id="Number" type="text" required="">
+  </label>
+</form>
+<button class="Submit" onclick="buttonClick()">Submit</button>
+
+
+<!--JavaScript-->
+<script src="app.js"></script>
+</body>
 </html>
