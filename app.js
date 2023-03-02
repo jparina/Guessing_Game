@@ -20,6 +20,7 @@ function buttonClick() {
 
   }
   previousNums.textContent += `${num.value}  `
+  document.getElementById("Number").value = ''
 }
 
 const num = document.getElementById("Number")
