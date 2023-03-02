@@ -1,0 +1,55 @@
+nav{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid crimson;*/
+    width: 100vw;
+    color: darkblue;
+}
+
+.my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    margin: 50px;
+    width: 900px;
+}
+
+input{
+    font-size: 30px;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: forestgreen;
+}
+
+p{
+    font-size: 70px;
+}
+
+.prev-num-con{
+    font-family: 'Press Start 2P', cursive;
+    color: crimson;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #333333;
+    height: 300px;
+    width: 800px;
+
+}
